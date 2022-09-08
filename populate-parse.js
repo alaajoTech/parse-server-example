@@ -1,4 +1,4 @@
-Parse.initialize("myRealAppId");
+Parse.initialize("myAppId");
 Parse.serverURL = 'https://parse-server-codecraft-test.herokuapp.com/parse';
 
 var TEAMS_JSON_URL = "https://gist.githubusercontent.com/jawache/0be7f073eb27762d97cac34972ea3468/raw/e8b4f92e7ca677da38700e43e506971d9d592a2a/premier_teams.json";
