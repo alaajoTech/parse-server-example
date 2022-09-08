@@ -17,7 +17,7 @@ if (!databaseUri) {
 const config = {
   databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'myAppId',
+  appId: process.env.APP_ID || 'myRealAppId',
   masterKey: process.env.MASTER_KEY || 'myMasterKey', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse', // Don't forget to change to https if needed
   fileUpload: { enableForPublic: true },
@@ -90,7 +90,7 @@ const config = {
 // If you wish you require them, you can set them as options in the initialization above:
 // javascriptKey, restAPIKey, dotNetKey, clientKey
 
-// parse-dashboard --dev --appId myAppId --masterKey myMasterKey --serverURL "https://parse-from-real-source.herokuapp.com/parse" --appName parse-test
+// parse-dashboard --dev --appId myRealAppId --masterKey myMasterKey --serverURL "https://parse-from-real-source.herokuapp.com/parse" --appName parse-test
 
 // Source -  https://www.youtube.com/watch?v=MAiva7qYUbc&list=PL-TLnxxt_AVFEOlCFBHBG_BbpaF3UX-EU&index=13
 
