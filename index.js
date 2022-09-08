@@ -90,7 +90,7 @@ const config = {
 // If you wish you require them, you can set them as options in the initialization above:
 // javascriptKey, restAPIKey, dotNetKey, clientKey
 
-// parse-dashboard --dev --appId myRealAppId --masterKey myMasterKey --serverURL "https://parse-from-real-source.herokuapp.com/parse" --appName parse-test
+// parse-dashboard --dev --appId  --masterKey myRealMasterKey --serverURL "https://parse-from-real-source.herokuapp.com/parse" --appName parse-test
 
 // Source -  https://www.youtube.com/watch?v=MAiva7qYUbc&list=PL-TLnxxt_AVFEOlCFBHBG_BbpaF3UX-EU&index=13
 
